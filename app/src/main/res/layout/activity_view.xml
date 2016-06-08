@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="@color/myMainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/back"
+            android:paddingLeft="15dp"
+            android:gravity="left"
+            android:background="#0000"
+            android:text="&lt;"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/title_text_color"
+            android:layout_weight="1"
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로딩 중입니다."
+            android:gravity="center"/>
+        <Button
+            android:background="#00000000"
+            android:textColor="@color/title_text_color"
+            android:id="@+id/reviseBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="수정"/>
+        <Button
+            android:background="#00000000"
+            android:textColor="@color/title_text_color"
+            android:id="@+id/deleteBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="삭제"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:foreground="@drawable/rounding"
+                    android:layout_margin="1dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp">
+                    <com.example.yonggu.module2.RecyclingImageView
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:id="@+id/profileImage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="@color/nameColor"
+                        android:id="@+id/nickName"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/currentTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:textSize="15dp"
+                android:id="@+id/contents"
+                android:padding="10dp"
+                android:text="로딩 중입니다.."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.yonggu.module2.RecyclingImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/contentImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/commentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="2"
+        android:background="#DEF"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/small_talk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_back"
+            android:onClick="smallTalkClick"
+            android:padding="10dp"
+            android:paddingLeft="15dp"
+            android:text=" SMALL TALK"
+            android:textColor="#055" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/talkEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/talkBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00F0"
+                android:text="TALK"
+                android:textColor="@color/nameColor" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#0000"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:smoothScrollbar="true" />
+    </LinearLayout>
+</LinearLayout>

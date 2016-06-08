@@ -1,0 +1,230 @@
+[
+    {
+        "outputFile": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 63,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 63,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 54,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 54,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 69,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 69,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 936
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 666,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 941,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1154
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 941,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1159,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 1529
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1159,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 1529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1534,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 1924
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1534,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 1924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1929,
+                    "endLine": 46,
+                    "endColumn": 12,
+                    "endOffset": 2396
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1929,
+                        "endLine": 46,
+                        "endColumn": 12,
+                        "endOffset": 2396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2401,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 2750
+                },
+                "from": {
+                    "file": "/Users/Yonggu/Documents/AndroidStudioProjects/Module2/pullToRefresh/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2401,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 2750
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">희노애락</string>
+    <string name="bar_name">희노애락</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab1">Tip</string>
+    <string name="tab2">Cook</string>
+    <string name="tab3">Living</string>
+    <string name="tab4">Collage</string>
+    <string name="tab5">My</string>
+
+    <string name="spinnerPrompt1">학교를 선택하세요</string>
+    <string name="spinnerPrompt2">카테고리 선택</string>
+
+    <string name="tab1_des">기쁨과 희망을 공유합시다</string>
+    <string name="tab2_des">분노를 털어냅시다</string>
+    <string name="tab3_des">슬픔과 절망을 줄입시다</string>
+    <string name="tab4_des">웃음과 즐거움을 나눕시다</string>
+    <string name="tab5_des">자기 정보 관리</string>
+
+    <string name="isNotification">isNotification</string>
+    <string name="isVibration">isVibration</string>
+    <string name="isSound">isSound</string>
+    <string name="isActionBarAlwaysShow">isActionBarAlwaysShow</string>
+    <string name="isButtonAlwaysShow">isButtonAlwaysShow</string>
+
+    <string name="no_network_connection_toast">No network connection found</string>
+
+</resources>

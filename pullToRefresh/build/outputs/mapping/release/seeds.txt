@@ -1,0 +1,101 @@
+eu.erikw.PullToRefreshListView
+eu.erikw.PullToRefreshListView: float PULL_RESISTANCE
+eu.erikw.PullToRefreshListView: int BOUNCE_ANIMATION_DURATION
+eu.erikw.PullToRefreshListView: int BOUNCE_ANIMATION_DELAY
+eu.erikw.PullToRefreshListView: float BOUNCE_OVERSHOOT_TENSION
+eu.erikw.PullToRefreshListView: int ROTATE_ARROW_ANIMATION_DURATION
+eu.erikw.PullToRefreshListView: int measuredHeaderHeight
+eu.erikw.PullToRefreshListView: boolean scrollbarEnabled
+eu.erikw.PullToRefreshListView: boolean bounceBackHeader
+eu.erikw.PullToRefreshListView: boolean lockScrollWhileRefreshing
+eu.erikw.PullToRefreshListView: boolean showLastUpdatedText
+eu.erikw.PullToRefreshListView: java.lang.String pullToRefreshText
+eu.erikw.PullToRefreshListView: java.lang.String releaseToRefreshText
+eu.erikw.PullToRefreshListView: java.lang.String refreshingText
+eu.erikw.PullToRefreshListView: java.lang.String lastUpdatedText
+eu.erikw.PullToRefreshListView: java.text.SimpleDateFormat lastUpdatedDateFormat
+eu.erikw.PullToRefreshListView: float previousY
+eu.erikw.PullToRefreshListView: int headerPadding
+eu.erikw.PullToRefreshListView: boolean hasResetHeader
+eu.erikw.PullToRefreshListView: long lastUpdated
+eu.erikw.PullToRefreshListView: eu.erikw.PullToRefreshListView$State state
+eu.erikw.PullToRefreshListView: android.widget.LinearLayout headerContainer
+eu.erikw.PullToRefreshListView: android.widget.RelativeLayout header
+eu.erikw.PullToRefreshListView: android.view.animation.RotateAnimation flipAnimation
+eu.erikw.PullToRefreshListView: android.view.animation.RotateAnimation reverseFlipAnimation
+eu.erikw.PullToRefreshListView: android.widget.ImageView image
+eu.erikw.PullToRefreshListView: android.widget.ProgressBar spinner
+eu.erikw.PullToRefreshListView: android.widget.TextView text
+eu.erikw.PullToRefreshListView: android.widget.TextView lastUpdatedTextView
+eu.erikw.PullToRefreshListView: android.widget.AdapterView$OnItemClickListener onItemClickListener
+eu.erikw.PullToRefreshListView: android.widget.AdapterView$OnItemLongClickListener onItemLongClickListener
+eu.erikw.PullToRefreshListView: eu.erikw.PullToRefreshListView$OnRefreshListener onRefreshListener
+eu.erikw.PullToRefreshListView: float mScrollStartY
+eu.erikw.PullToRefreshListView: int IDLE_DISTANCE
+eu.erikw.PullToRefreshListView: PullToRefreshListView(android.content.Context)
+eu.erikw.PullToRefreshListView: PullToRefreshListView(android.content.Context,android.util.AttributeSet)
+eu.erikw.PullToRefreshListView: PullToRefreshListView(android.content.Context,android.util.AttributeSet,int)
+eu.erikw.PullToRefreshListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)
+eu.erikw.PullToRefreshListView: void setOnItemLongClickListener(android.widget.AdapterView$OnItemLongClickListener)
+eu.erikw.PullToRefreshListView: void setOnRefreshListener(eu.erikw.PullToRefreshListView$OnRefreshListener)
+eu.erikw.PullToRefreshListView: boolean isRefreshing()
+eu.erikw.PullToRefreshListView: void setLockScrollWhileRefreshing(boolean)
+eu.erikw.PullToRefreshListView: void setShowLastUpdatedText(boolean)
+eu.erikw.PullToRefreshListView: void setLastUpdatedDateFormat(java.text.SimpleDateFormat)
+eu.erikw.PullToRefreshListView: void setRefreshing()
+eu.erikw.PullToRefreshListView: void onRefreshComplete()
+eu.erikw.PullToRefreshListView: void setTextPullToRefresh(java.lang.String)
+eu.erikw.PullToRefreshListView: void setTextReleaseToRefresh(java.lang.String)
+eu.erikw.PullToRefreshListView: void setTextRefreshing(java.lang.String)
+eu.erikw.PullToRefreshListView: void init()
+eu.erikw.PullToRefreshListView: void setHeaderPadding(int)
+eu.erikw.PullToRefreshListView: boolean onTouchEvent(android.view.MotionEvent)
+eu.erikw.PullToRefreshListView: void bounceBackHeader()
+eu.erikw.PullToRefreshListView: void resetHeader()
+eu.erikw.PullToRefreshListView: void setUiRefreshing()
+eu.erikw.PullToRefreshListView: void setState(eu.erikw.PullToRefreshListView$State)
+eu.erikw.PullToRefreshListView: void onScrollChanged(int,int,int,int)
+eu.erikw.PullToRefreshListView: eu.erikw.PullToRefreshListView$State access$300(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: boolean access$400(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: int access$500()
+eu.erikw.PullToRefreshListView: android.widget.LinearLayout access$600(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: void access$700(eu.erikw.PullToRefreshListView,int)
+eu.erikw.PullToRefreshListView: boolean access$800(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: boolean access$802(eu.erikw.PullToRefreshListView,boolean)
+eu.erikw.PullToRefreshListView: void access$900(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: void access$1000(eu.erikw.PullToRefreshListView,eu.erikw.PullToRefreshListView$State)
+eu.erikw.PullToRefreshListView: android.widget.RelativeLayout access$1100(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: int access$502(int)
+eu.erikw.PullToRefreshListView: boolean access$1202(eu.erikw.PullToRefreshListView,boolean)
+eu.erikw.PullToRefreshListView: android.widget.AdapterView$OnItemClickListener access$1300(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView: android.widget.AdapterView$OnItemLongClickListener access$1400(eu.erikw.PullToRefreshListView)
+eu.erikw.PullToRefreshListView$OnRefreshListener
+eu.erikw.PullToRefreshListView$OnRefreshListener: void onRefresh()
+eu.erikw.PullToRefreshListView$State: eu.erikw.PullToRefreshListView$State[] values()
+eu.erikw.PullToRefreshListView$State: eu.erikw.PullToRefreshListView$State valueOf(java.lang.String)
+eu.erikw.R
+eu.erikw.R$attr
+eu.erikw.R$drawable
+eu.erikw.R$drawable: int ptr_pulltorefresh_arrow
+eu.erikw.R$id
+eu.erikw.R$id: int ptr_id_header
+eu.erikw.R$id: int ptr_id_image
+eu.erikw.R$id: int ptr_id_last_updated
+eu.erikw.R$id: int ptr_id_spinner
+eu.erikw.R$id: int ptr_id_text
+eu.erikw.R$id: int ptr_id_textwrapper
+eu.erikw.R$layout
+eu.erikw.R$layout: int ptr_header
+eu.erikw.R$string
+eu.erikw.R$string: int ptr_last_updated
+eu.erikw.R$string: int ptr_pull_to_refresh
+eu.erikw.R$string: int ptr_refreshing
+eu.erikw.R$string: int ptr_release_to_refresh
+eu.erikw.R$style
+eu.erikw.R$style: int ptr_arrow
+eu.erikw.R$style: int ptr_header
+eu.erikw.R$style: int ptr_headerContainer
+eu.erikw.R$style: int ptr_last_updated
+eu.erikw.R$style: int ptr_spinner
+eu.erikw.R$style: int ptr_text
+eu.erikw.R$style: int ptr_textwrapper

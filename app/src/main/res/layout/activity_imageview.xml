@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="#AA33b5e5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/back"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:gravity="left"
+            android:background="#0000"
+            android:text="&lt;"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/title_text_color"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:text="사 진"/>
+        <Button
+            android:visibility="invisible"
+            android:enabled="false"
+            android:textColor="@color/title_text_color"
+            android:background="#00000000"
+            android:id="@+id/upBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+    <com.example.yonggu.module2.RecyclingImageView
+        android:scaleType="fitCenter"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

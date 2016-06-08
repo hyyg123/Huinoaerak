@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:paddingBottom="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:foreground="@drawable/rounding"
+            android:layout_margin="1dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+            <com.example.yonggu.module2.RecyclingImageView
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:id="@+id/profileImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+                <!--android:src="@drawable/user"-->
+            <!--<ImageView
+                android:src="@drawable/rounding"
+                android:id="@+id/roundingImageVIew"
+                android:layout_gravity="center"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />-->
+            <!--android:src="@drawable/rounding"-->
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="88"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="bottom"
+                android:id="@+id/nickName"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/nameColor"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:gravity="top"
+                android:id="@+id/currentTime"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:textSize="9dp"/>
+        </LinearLayout>
+        <TextView
+            android:background="@drawable/talk"
+            android:id="@+id/commentCntTextView"
+            android:textColor="#AAA"
+            android:text="0"
+            android:padding="1dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_weight="12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <!--android:background="@drawable/talk"-->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/contents"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로딩 중입니다.."/>
+
+    <com.example.yonggu.module2.RecyclingImageView
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+</LinearLayout>

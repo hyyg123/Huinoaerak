@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="@color/myMainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/back"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:gravity="left"
+            android:background="#0000"
+            android:text="&lt;"
+            android:textSize="30dp"
+            android:textColor="@color/title_text_color"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/title_text_color"
+            android:layout_weight="2"
+            android:id="@+id/categoryName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="로딩 중입니다."
+            android:gravity="center"/>
+        <Button
+            android:enabled="false"
+            android:visibility="invisible"
+            android:text="space"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.example.yonggu.module2.RecyclingImageView
+        android:background="@drawable/image_back"
+        android:id="@+id/userImageView"
+        android:src="@drawable/sample"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <TextView
+        android:id="@+id/nickNameTextView"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="용구"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/boardBtn"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="@color/myMainColor"
+            android:textSize="15dp"
+            android:text="용구님이 쓴 글 보기(0)"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

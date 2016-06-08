@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="@color/myMainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:onClick="onClick"
+            android:id="@+id/back"
+            android:paddingLeft="15dp"
+            android:gravity="left"
+            android:background="#0000"
+            android:text="&lt;"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/title_text_color"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:text="프로필 사진"/>
+        <Button
+            android:textColor="@color/title_text_color"
+            android:background="#00000000"
+            android:id="@+id/upBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="올리기"/>
+    </LinearLayout>
+    <com.example.yonggu.module2.RecyclingImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="450dp" />
+</LinearLayout>

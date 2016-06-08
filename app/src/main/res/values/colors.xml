@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_text_color">#FFFFFF</color>
+    <color name="boardColor">#FFFFFF</color>
+    <color name="barColor">#0099cc</color>
+    <color name="myMainColor">#33b5e5</color>
+    <color name="myMainColorOp">#EE33b5e5</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nameColor">#55F</color>
+    <color name="commentBackColor">#DDF</color>
+    <color name="smallTalkBtn">#055</color>
+    <color name="smallTalkBtnPushed">#5AA</color>
+    <color name="smallTalkBox">#9DF</color>
+</resources>

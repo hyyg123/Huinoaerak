@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="universityArray">
+        <item>건국대학교</item>
+        <item>고려대학교</item>
+        <item>단국대학교</item>
+        <item>동국대학교</item>
+        <item>서강대학교</item>
+        <item>서울대학교</item>
+        <item>서울시립대학교</item>
+        <item>성균관대학교</item>
+        <item>성신여자대학교</item>
+        <item>숙명여자대학교</item>
+        <item>숭실대학교</item>
+        <item>세종대학교</item>
+        <item>연세대학교</item>
+        <item>이화여자대학교</item>
+        <item>중앙대학교</item>
+        <item>한성대학교</item>
+        <item>한양대학교</item>
+        <item>홍익대학교</item>
+    </string-array>
+    <!--<string-array name="spinnerArray2">
+        <item>@string/tab1</item>
+        <item>@string/tab2</item>
+        <item>@string/tab3</item>
+        <item>@string/tab4</item>
+        <item>@string/tab5</item>
+    </string-array>-->
+    <string-array name="tableNameArray">
+        <item>@string/tab1</item>
+        <item>@string/tab2</item>
+        <item>@string/tab3</item>
+        <item>@string/tab4</item>
+        <item>@string/tab5</item>
+    </string-array>
+
+    <string-array name="viewTabTextArray">
+        <item>喜(희)</item>
+        <item>怒(노)</item>
+        <item>哀(애)</item>
+        <item>樂(락)</item>
+    </string-array>
+
+    <string-array name="appbar_nameArray">
+        <item>@string/tab1_des</item>
+        <item>@string/tab2_des</item>
+        <item>@string/tab3_des</item>
+        <item>@string/tab4_des</item>
+        <item>@string/tab5_des</item>
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="알림 설정">
+        <SwitchPreference
+            android:id="@+id/notification"
+            android:key="@string/isNotification"
+            android:defaultValue="true"
+            android:title="알림 사용"/>
+        <SwitchPreference
+            android:id="@+id/vibrate"
+            android:key="@string/isVibration"
+            android:defaultValue="true"
+            android:title="진동"/>
+        <SwitchPreference
+            android:id="@+id/sound"
+            android:key="@string/isSound"
+            android:defaultValue="true"
+            android:title="소리"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="인터페이스 설정">
+        <SwitchPreference
+            android:id="@+id/actionBarPre"
+            android:key="@string/isActionBarAlwaysShow"
+            android:title="액션바 고정"/>
+        <SwitchPreference
+            android:id="@+id/ButtonPre"
+            android:key="@string/isButtonAlwaysShow"
+            android:title="글쓰기 버튼 고정"/>
+    </PreferenceCategory>
+</PreferenceScreen>
